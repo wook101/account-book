@@ -25,4 +25,7 @@ public class RegisterDao {
         return jdbcTemplate.queryForObject(sql, Collections.singletonMap("email",email), userRowMapper);
     }
 
+    //회원 정보 저장하기
+    public
+
 }
