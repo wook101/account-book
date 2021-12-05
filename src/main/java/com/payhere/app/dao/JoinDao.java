@@ -27,6 +27,12 @@ public class JoinDao {
         return jdbcTemplate.queryForObject(sql, Collections.singletonMap("email",email), userRowMapper);
     }
 
+    //중복 이메일 검증을 위한 유저 수
+    public int findByEmailCount(String email){
+        String sql = "select count(*) from user where email=:email";
+        return jdbcTemplate.queryForObject(sql,Collections.singletonMap("email",email), int.class);
+    }
+
     //회원 정보 저장하기
     public UserDto save(UserDto userDto){
         String sql = "insert into user(email,password) values(:email,:password)";
@@ -36,5 +42,8 @@ public class JoinDao {
         jdbcTemplate.update(sql,param);
         return userDto;
     }
+
+
+
 
 }
