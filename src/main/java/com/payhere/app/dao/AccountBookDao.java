@@ -1,7 +1,6 @@
 package com.payhere.app.dao;
 
 import com.payhere.app.domain.AccountBook;
-import com.payhere.app.domain.User;
 import com.payhere.app.dto.AccountBookDto;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.RowMapper;
