@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Collections;
+
 @RestController
 public class JoinController {
 
@@ -22,8 +24,8 @@ public class JoinController {
     public ResponseEntity join(@RequestBody UserDto userDto){
         boolean joinValid = joinService.join(userDto);
         if (!joinValid)
-            return ResponseEntity.status(HttpStatus.CONFLICT).body("fail");
-        return ResponseEntity.status(HttpStatus.OK).body("success");
+            return ResponseEntity.status(HttpStatus.CONFLICT).body(Collections.singletonMap("message","이메일 중복"));
+        return ResponseEntity.status(HttpStatus.OK).body(Collections.singletonMap("message","회원가입 성공"));
     }
 
 
