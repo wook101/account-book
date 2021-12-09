@@ -87,7 +87,7 @@
 * 요청
   Header
 ```
-{"Authentication":"eyJyZWdEYXRlIjoxNjM4Nzg0Mzk1MDE3LCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mzg3ODQ0NTUsImVtYWlsIjoiYWJjMUBnb29nbGUuY29tIn0.0BzaLMEU4d_SOlCAnPwfj8dKWKVyyaCTVVxblmwX_zU"}
+{"Authorization":"Bearer <token>"}
 ```
 Body raw
 ``` 
@@ -105,7 +105,7 @@ Body raw
 * 요청
   Header
 ```
-{"Authentication":"eyJyZWdEYXRlIjoxNjM4Nzg0Mzk1MDE3LCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mzg3ODQ0NTUsImVtYWlsIjoiYWJjMUBnb29nbGUuY29tIn0.0BzaLMEU4d_SOlCAnPwfj8dKWKVyyaCTVVxblmwX_zU"}
+{"Authorization":"Bearer <token>"}
 ```
 Body raw
 ``` 
@@ -123,7 +123,7 @@ Body raw
 * 요청
   Header
 ```
-{"Authentication":"eyJyZWdEYXRlIjoxNjM4Nzg0Mzk1MDE3LCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mzg3ODQ0NTUsImVtYWlsIjoiYWJjMUBnb29nbGUuY29tIn0.0BzaLMEU4d_SOlCAnPwfj8dKWKVyyaCTVVxblmwX_zU"}
+{"Authorization":"Bearer <token>"}
 ```
 
 * 응답 Body
@@ -137,7 +137,7 @@ Body raw
 * 요청
   Header
 ```
-{"Authentication":"eyJyZWdEYXRlIjoxNjM4Nzg0Mzk1MDE3LCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mzg3ODQ0NTUsImVtYWlsIjoiYWJjMUBnb29nbGUuY29tIn0.0BzaLMEU4d_SOlCAnPwfj8dKWKVyyaCTVVxblmwX_zU"}
+{"Authorization":"Bearer <token>"}
 ```
 Body raw
 ``` 
@@ -154,7 +154,7 @@ Body raw
 * 요청
   Header
 ```
-{"Authentication":"eyJyZWdEYXRlIjoxNjM4Nzg0Mzk1MDE3LCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mzg3ODQ0NTUsImVtYWlsIjoiYWJjMUBnb29nbGUuY29tIn0.0BzaLMEU4d_SOlCAnPwfj8dKWKVyyaCTVVxblmwX_zU"}
+{"Authorization":"Bearer <token>"}
 ```
 * 응답 Body raw
   성공 (상태코드 | 200 | HttpStatus.OK)
@@ -171,7 +171,7 @@ Body raw
 * 요청
   Header
 ```
-{"Authentication":"eyJyZWdEYXRlIjoxNjM4Nzg0Mzk1MDE3LCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mzg3ODQ0NTUsImVtYWlsIjoiYWJjMUBnb29nbGUuY29tIn0.0BzaLMEU4d_SOlCAnPwfj8dKWKVyyaCTVVxblmwX_zU"}
+{"Authorization":"Bearer <token>"}
 ```
 * 응답 Body raw
   성공 (상태코드 | 200 | HttpStatus.OK)
