@@ -83,7 +83,7 @@
 
 
 
-### 3. 가계부 등록 Post localhost:8080/auth/account-book
+### 3. 가계부 등록 Post localhost:8080/account-book
 * 요청
   Header
 ```
@@ -101,7 +101,7 @@ Body raw
 
 
 
-### 4. 가계부 수정 Put localhost:8080/auth/account-book/{id}
+### 4. 가계부 수정 Put localhost:8080/account-book/{id}
 * 요청
   Header
 ```
@@ -119,7 +119,7 @@ Body raw
 
 
 
-### 5. 가계부 삭제 Delete localhost:8080/auth/account-book/{id}
+### 5. 가계부 삭제 Delete localhost:8080/account-book/{id}
 * 요청
   Header
 ```
@@ -133,7 +133,7 @@ Body raw
 ```
 
 
-### 6. 가계부 복구 Post localhost:8080/auth/account-book/{id}
+### 6. 가계부 복구 Post localhost:8080/account-book/{id}
 * 요청
   Header
 ```
@@ -150,7 +150,7 @@ Body raw
 ```
 
 
-### 7. 가계부 리스트 Get localhost:8080/auth/account-books
+### 7. 가계부 리스트 Get localhost:8080/account-books
 * 요청
   Header
 ```
@@ -167,7 +167,7 @@ Body raw
 ```
 
 
-### 8. 가계부 상세정보 Get localhost:8080/auth/account-book/{id}
+### 8. 가계부 상세정보 Get localhost:8080/account-book/{id}
 * 요청
   Header
 ```
