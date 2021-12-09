@@ -6,7 +6,8 @@ CREATE TABLE USER (
 	id int not null auto_increment,
     email varchar(30) not null,
     password varchar(30) not null,
-    primary key(id)
+    primary key(id),
+    constraint unique (email)
 );
 
 CREATE TABLE ACCOUNT_BOOK (
